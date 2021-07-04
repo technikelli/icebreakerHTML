@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Icebreaker Survey</title>
+    </head>
+
+    <body>
+        <div>
+            <header><h1>Icebreaker</h1></header>
+            <figure>
+            <img src="images/photo1.jpg" alt="" height="450" width="450">
+            <br>
+            <figcaption><h4>Let's get to know each other!</h4></figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <form action>
+            <p>What is your name?
+            <input id="user-name" type="text" placeholder="ex. John Doe" required>
+            </p>
+
+            <p>When is your birthday?
+            <input id="user-birthday" type="text" placeholder="(MM/DD)" required>
+            </p>
+
+            <label for="user-zodiac">
+                What is your <a href=https://www.astrology-zodiac-signs.com/ target="_blank">zodiac</a> sign?
+                <select name="user-zodiac" required="required">
+                    <option>--Not Selected--</option>
+                    <option value="aries">Aries</option>
+                    <option value="taurus">Taurus</option>
+                    <option value="gemini">Gemini</option>
+                    <option value="cancer">Cancer</option>
+                    <option value="leo">Leo</option>
+                    <option value="virgo">Virgo</option>
+                    <option value="libra">Libra</option>
+                    <option value="Scorpio">Scorpio</option>
+                    <option value="sagittarius">Sagittarius</option>
+                    <option value="capricorn">Capricorn</option>
+                    <option value="aquarius">Aquarius</option>
+                    <option value="pisces">Pisces</option>
+                </select>
+            </label>
+
+            <p>Are you a morning or night person?
+            <input id="morning" type="radio" name="morning-night">Morning
+            <input id="night" type="radio" name="morning-night">Night<br>
+            </p>
+
+            <p>How would you describe your personality? (Select all that apply)
+                <br>
+                <input id="adventurous" type="checkbox" value="adventurous" name="user-personality">Adventurous
+                <input id="friendly" type="checkbox" value="friendly" name="user-personality">Friendly
+                <input id="shy" type="checkbox" value="shy" name="user-personality">Shy
+                <br>
+                <input id="assertive" type="checkbox" value="assertive" name="user-personality">Assertive
+                <input id="practical" type="checkbox" value="practical" name="user-personality">Pracitcal
+                <input id="artistic" type="checkbox" value="artistic" name="user-personality">Artistic
+                <br>
+                <input id="funny" type="checkbox" value="funny" name="user-personality">Funny
+                <input id="ambitious" type="checkbox" value="ambitious" name="user-personality">Ambitious
+                <input id="energetic" type="checkbox" value="energetic" name="user-personality">Energetic
+                <br>
+                <input id="methodical" type="checkbox" value="methodical" name="user-personality">Methodical
+                <input id="serious" type="checkbox" value="serious" name="user-personality">Serious
+                <input id="carefree" type="checkbox" value="carefree" name="user-personality">Carefree
+            </p>
+
+            <p>If you were stranded on an island, what three things would you bring and why? (Specify for each item)
+                <br>
+                <textarea id="item-1" name="items" cols="50" rows="2" placeholder="Item 1..."></textarea><br>
+                <textarea id="item-2" name="items" cols="50" rows="2" placeholder="Item 2..."></textarea><br>
+                <textarea id="item-3" name="items" cols="50" rows="2" placeholder="Item 3..."></textarea><br>
+            </p>
+
+            <input type="submit" value="Submit">
+            <br>
+        </form>
+        </div>
+
+    </body>
+
+</html>
